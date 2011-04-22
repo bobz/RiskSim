@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		483F1A421362404A0070F078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F1A411362404A0070F078 /* UIKit.framework */; };
+		483F1A441362404A0070F078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F1A431362404A0070F078 /* Foundation.framework */; };
+		483F1A461362404A0070F078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F1A451362404A0070F078 /* CoreGraphics.framework */; };
+		483F1A4C1362404A0070F078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 483F1A4A1362404A0070F078 /* InfoPlist.strings */; };
+		483F1A4F1362404A0070F078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F1A4E1362404A0070F078 /* main.m */; };
+		483F1A521362404B0070F078 /* RiskSimAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F1A511362404B0070F078 /* RiskSimAppDelegate.m */; };
+		483F1A551362404B0070F078 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 483F1A531362404B0070F078 /* MainWindow.xib */; };
+		483F1A581362404B0070F078 /* RiskSimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F1A571362404B0070F078 /* RiskSimViewController.m */; };
+		483F1A5B1362404B0070F078 /* RiskSimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 483F1A591362404B0070F078 /* RiskSimViewController.xib */; };
+		483F1A621362404B0070F078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F1A411362404A0070F078 /* UIKit.framework */; };
+		483F1A631362404B0070F078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F1A431362404A0070F078 /* Foundation.framework */; };
+		483F1A641362404B0070F078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F1A451362404A0070F078 /* CoreGraphics.framework */; };
+		483F1A6C1362404B0070F078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 483F1A6A1362404B0070F078 /* InfoPlist.strings */; };
+		483F1A6F1362404B0070F078 /* RiskSimTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 483F1A6E1362404B0070F078 /* RiskSimTests.h */; };
+		483F1A711362404B0070F078 /* RiskSimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F1A701362404B0070F078 /* RiskSimTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		483F1A651362404B0070F078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483F1A341362404A0070F078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483F1A3C1362404A0070F078;
+			remoteInfo = RiskSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483F1A3D1362404A0070F078 /* RiskSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		483F1A411362404A0070F078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		483F1A431362404A0070F078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		483F1A451362404A0070F078 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		483F1A491362404A0070F078 /* RiskSim-Info.plist */ = {isa = PBXFileReference; path = "RiskSim-Info.plist"; sourceTree = "<group>"; };
+		483F1A4B1362404A0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		483F1A4D1362404A0070F078 /* RiskSim-Prefix.pch */ = {isa = PBXFileReference; path = "RiskSim-Prefix.pch"; sourceTree = "<group>"; };
+		483F1A4E1362404A0070F078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		483F1A501362404A0070F078 /* RiskSimAppDelegate.h */ = {isa = PBXFileReference; path = RiskSimAppDelegate.h; sourceTree = "<group>"; };
+		483F1A511362404B0070F078 /* RiskSimAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskSimAppDelegate.m; sourceTree = "<group>"; };
+		483F1A541362404B0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		483F1A561362404B0070F078 /* RiskSimViewController.h */ = {isa = PBXFileReference; path = RiskSimViewController.h; sourceTree = "<group>"; };
+		483F1A571362404B0070F078 /* RiskSimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskSimViewController.m; sourceTree = "<group>"; };
+		483F1A5A1362404B0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RiskSimViewController.xib; sourceTree = "<group>"; };
+		483F1A611362404B0070F078 /* RiskSimTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskSimTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		483F1A691362404B0070F078 /* RiskSimTests-Info.plist */ = {isa = PBXFileReference; path = "RiskSimTests-Info.plist"; sourceTree = "<group>"; };
+		483F1A6B1362404B0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		483F1A6D1362404B0070F078 /* RiskSimTests-Prefix.pch */ = {isa = PBXFileReference; path = "RiskSimTests-Prefix.pch"; sourceTree = "<group>"; };
+		483F1A6E1362404B0070F078 /* RiskSimTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiskSimTests.h; sourceTree = "<group>"; };
+		483F1A701362404B0070F078 /* RiskSimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskSimTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		483F1A3A1362404A0070F078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F1A421362404A0070F078 /* UIKit.framework in Frameworks */,
+				483F1A441362404A0070F078 /* Foundation.framework in Frameworks */,
+				483F1A461362404A0070F078 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483F1A5D1362404B0070F078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F1A621362404B0070F078 /* UIKit.framework in Frameworks */,
+				483F1A631362404B0070F078 /* Foundation.framework in Frameworks */,
+				483F1A641362404B0070F078 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483F1A321362404A0070F078 = {
+			isa = PBXGroup;
+			children = (
+				483F1A471362404A0070F078 /* RiskSim */,
+				483F1A671362404B0070F078 /* RiskSimTests */,
+				483F1A401362404A0070F078 /* Frameworks */,
+				483F1A3E1362404A0070F078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		483F1A3E1362404A0070F078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				483F1A3D1362404A0070F078 /* RiskSim.app */,
+				483F1A611362404B0070F078 /* RiskSimTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		483F1A401362404A0070F078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				483F1A411362404A0070F078 /* UIKit.framework */,
+				483F1A431362404A0070F078 /* Foundation.framework */,
+				483F1A451362404A0070F078 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		483F1A471362404A0070F078 /* RiskSim */ = {
+			isa = PBXGroup;
+			children = (
+				483F1A501362404A0070F078 /* RiskSimAppDelegate.h */,
+				483F1A511362404B0070F078 /* RiskSimAppDelegate.m */,
+				483F1A531362404B0070F078 /* MainWindow.xib */,
+				483F1A561362404B0070F078 /* RiskSimViewController.h */,
+				483F1A571362404B0070F078 /* RiskSimViewController.m */,
+				483F1A591362404B0070F078 /* RiskSimViewController.xib */,
+				483F1A481362404A0070F078 /* Supporting Files */,
+			);
+			path = RiskSim;
+			sourceTree = "<group>";
+		};
+		483F1A481362404A0070F078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				483F1A491362404A0070F078 /* RiskSim-Info.plist */,
+				483F1A4A1362404A0070F078 /* InfoPlist.strings */,
+				483F1A4D1362404A0070F078 /* RiskSim-Prefix.pch */,
+				483F1A4E1362404A0070F078 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		483F1A671362404B0070F078 /* RiskSimTests */ = {
+			isa = PBXGroup;
+			children = (
+				483F1A6E1362404B0070F078 /* RiskSimTests.h */,
+				483F1A701362404B0070F078 /* RiskSimTests.m */,
+				483F1A681362404B0070F078 /* Supporting Files */,
+			);
+			path = RiskSimTests;
+			sourceTree = "<group>";
+		};
+		483F1A681362404B0070F078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				483F1A691362404B0070F078 /* RiskSimTests-Info.plist */,
+				483F1A6A1362404B0070F078 /* InfoPlist.strings */,
+				483F1A6D1362404B0070F078 /* RiskSimTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		483F1A3C1362404A0070F078 /* RiskSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483F1A741362404B0070F078 /* Build configuration list for PBXNativeTarget "RiskSim" */;
+			buildPhases = (
+				483F1A391362404A0070F078 /* Sources */,
+				483F1A3A1362404A0070F078 /* Frameworks */,
+				483F1A3B1362404A0070F078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiskSim;
+			productName = RiskSim;
+			productReference = 483F1A3D1362404A0070F078 /* RiskSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		483F1A601362404B0070F078 /* RiskSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483F1A771362404B0070F078 /* Build configuration list for PBXNativeTarget "RiskSimTests" */;
+			buildPhases = (
+				483F1A5C1362404B0070F078 /* Sources */,
+				483F1A5D1362404B0070F078 /* Frameworks */,
+				483F1A5E1362404B0070F078 /* Resources */,
+				483F1A5F1362404B0070F078 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483F1A661362404B0070F078 /* PBXTargetDependency */,
+			);
+			name = RiskSimTests;
+			productName = RiskSimTests;
+			productReference = 483F1A611362404B0070F078 /* RiskSimTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		483F1A341362404A0070F078 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 483F1A371362404A0070F078 /* Build configuration list for PBXProject "RiskSim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 483F1A321362404A0070F078;
+			productRefGroup = 483F1A3E1362404A0070F078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				483F1A3C1362404A0070F078 /* RiskSim */,
+				483F1A601362404B0070F078 /* RiskSimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		483F1A3B1362404A0070F078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F1A4C1362404A0070F078 /* InfoPlist.strings in Resources */,
+				483F1A551362404B0070F078 /* MainWindow.xib in Resources */,
+				483F1A5B1362404B0070F078 /* RiskSimViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483F1A5E1362404B0070F078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F1A6C1362404B0070F078 /* InfoPlist.strings in Resources */,
+				483F1A6F1362404B0070F078 /* RiskSimTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		483F1A5F1362404B0070F078 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		483F1A391362404A0070F078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F1A4F1362404A0070F078 /* main.m in Sources */,
+				483F1A521362404B0070F078 /* RiskSimAppDelegate.m in Sources */,
+				483F1A581362404B0070F078 /* RiskSimViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483F1A5C1362404B0070F078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F1A711362404B0070F078 /* RiskSimTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483F1A661362404B0070F078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483F1A3C1362404A0070F078 /* RiskSim */;
+			targetProxy = 483F1A651362404B0070F078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		483F1A4A1362404A0070F078 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483F1A4B1362404A0070F078 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		483F1A531362404B0070F078 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483F1A541362404B0070F078 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		483F1A591362404B0070F078 /* RiskSimViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483F1A5A1362404B0070F078 /* en */,
+			);
+			name = RiskSimViewController.xib;
+			sourceTree = "<group>";
+		};
+		483F1A6A1362404B0070F078 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483F1A6B1362404B0070F078 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		483F1A721362404B0070F078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		483F1A731362404B0070F078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		483F1A751362404B0070F078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RiskSim/RiskSim-Prefix.pch";
+				INFOPLIST_FILE = "RiskSim/RiskSim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		483F1A761362404B0070F078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RiskSim/RiskSim-Prefix.pch";
+				INFOPLIST_FILE = "RiskSim/RiskSim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		483F1A781362404B0070F078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RiskSim.app/RiskSim";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RiskSimTests/RiskSimTests-Prefix.pch";
+				INFOPLIST_FILE = "RiskSimTests/RiskSimTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		483F1A791362404B0070F078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RiskSim.app/RiskSim";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RiskSimTests/RiskSimTests-Prefix.pch";
+				INFOPLIST_FILE = "RiskSimTests/RiskSimTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		483F1A371362404A0070F078 /* Build configuration list for PBXProject "RiskSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483F1A721362404B0070F078 /* Debug */,
+				483F1A731362404B0070F078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483F1A741362404B0070F078 /* Build configuration list for PBXNativeTarget "RiskSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483F1A751362404B0070F078 /* Debug */,
+				483F1A761362404B0070F078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		483F1A771362404B0070F078 /* Build configuration list for PBXNativeTarget "RiskSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483F1A781362404B0070F078 /* Debug */,
+				483F1A791362404B0070F078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 483F1A341362404A0070F078 /* Project object */;
+}
