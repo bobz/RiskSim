@@ -39,20 +39,20 @@
 		483F1A411362404A0070F078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		483F1A431362404A0070F078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		483F1A451362404A0070F078 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		483F1A491362404A0070F078 /* RiskSim-Info.plist */ = {isa = PBXFileReference; path = "RiskSim-Info.plist"; sourceTree = "<group>"; };
+		483F1A491362404A0070F078 /* RiskSim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RiskSim-Info.plist"; sourceTree = "<group>"; };
 		483F1A4B1362404A0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		483F1A4D1362404A0070F078 /* RiskSim-Prefix.pch */ = {isa = PBXFileReference; path = "RiskSim-Prefix.pch"; sourceTree = "<group>"; };
+		483F1A4D1362404A0070F078 /* RiskSim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RiskSim-Prefix.pch"; sourceTree = "<group>"; };
 		483F1A4E1362404A0070F078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		483F1A501362404A0070F078 /* RiskSimAppDelegate.h */ = {isa = PBXFileReference; path = RiskSimAppDelegate.h; sourceTree = "<group>"; };
+		483F1A501362404A0070F078 /* RiskSimAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiskSimAppDelegate.h; sourceTree = "<group>"; };
 		483F1A511362404B0070F078 /* RiskSimAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskSimAppDelegate.m; sourceTree = "<group>"; };
 		483F1A541362404B0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		483F1A561362404B0070F078 /* RiskSimViewController.h */ = {isa = PBXFileReference; path = RiskSimViewController.h; sourceTree = "<group>"; };
+		483F1A561362404B0070F078 /* RiskSimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiskSimViewController.h; sourceTree = "<group>"; };
 		483F1A571362404B0070F078 /* RiskSimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskSimViewController.m; sourceTree = "<group>"; };
 		483F1A5A1362404B0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RiskSimViewController.xib; sourceTree = "<group>"; };
 		483F1A611362404B0070F078 /* RiskSimTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskSimTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		483F1A691362404B0070F078 /* RiskSimTests-Info.plist */ = {isa = PBXFileReference; path = "RiskSimTests-Info.plist"; sourceTree = "<group>"; };
+		483F1A691362404B0070F078 /* RiskSimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RiskSimTests-Info.plist"; sourceTree = "<group>"; };
 		483F1A6B1362404B0070F078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		483F1A6D1362404B0070F078 /* RiskSimTests-Prefix.pch */ = {isa = PBXFileReference; path = "RiskSimTests-Prefix.pch"; sourceTree = "<group>"; };
+		483F1A6D1362404B0070F078 /* RiskSimTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RiskSimTests-Prefix.pch"; sourceTree = "<group>"; };
 		483F1A6E1362404B0070F078 /* RiskSimTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiskSimTests.h; sourceTree = "<group>"; };
 		483F1A701362404B0070F078 /* RiskSimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskSimTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

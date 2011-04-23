@@ -7,6 +7,7 @@
 //
 
 #import "RiskSimTests.h"
+#import "RiskSimViewController.h"
 
 
 @implementation RiskSimTests
@@ -25,9 +26,18 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testDoSim
 {
-    STFail(@"Unit tests are not implemented yet in RiskSimTests");
+    RiskSimViewController *controller = [RiskSimViewController new];
+    ////    controller = [controller init];
+    [controller doSim: 50 : 50 ];
+}
+
+- (void)testRunMonteCarlo
+{
+    RiskSimViewController *controller = [RiskSimViewController new];
+    ////    controller = [controller init];
+    [controller runMonteCarlo: 50 : 50 ];
 }
 
 @end
