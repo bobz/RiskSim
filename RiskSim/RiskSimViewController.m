@@ -9,20 +9,26 @@
 #import "RiskSimViewController.h"
 
 @implementation RiskSimViewController
-@synthesize oUnits, dUnits, results;
+@synthesize oUnits, dUnits, results, oLimit;
 
 
 - (void) calculate :(id) sender 
 {
     int o = [oUnits.text intValue];
     int d = [dUnits.text intValue];
+    int oLim = [oLimit.text intValue];
     
-    int wins = [self runMonteCarlo:o:d];
+    if(oLim < 1) 
+    {
+        oLim = 1;
+    }
+    
+    int wins = [self runMonteCarlo:o:d:oLim];
 
     results.text = [NSString stringWithFormat:@"%d", wins];
 }
 
-- (int) runMonteCarlo:(int) o:(int) d
+- (int) runMonteCarlo:(int) o:(int) d:(int) oLim
 {
     int NUM_SIMS = 10000;
     
@@ -31,18 +37,18 @@
     for (int i = 0; i < NUM_SIMS ; i++)
     {
         
-        if ([self doSim:o:d])
+        if ([self doSim:o:d:oLim])
         {
             numWins++;
         }
         
     }
-    int percent = (numWins * 100) / 10000; 
+    int percent = (numWins * 100) / NUM_SIMS; 
     printf("%i O beats %i D %i times out of 100\n\n\n", o, d, percent);
     return percent;
 }
 
-- (bool)doSim :(int) o :(int) d
+- (bool)doSim :(int) o :(int) d :(int) oLim
 {
     while (o > 1)
     {
@@ -98,7 +104,7 @@
 //        printf("%i Deffensive Units left.\n\n", d);
         
         
-        if (o <=1) return false;
+        if (o <=oLim) return false;
         if (d <=0) return true;
     }
     
