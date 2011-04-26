@@ -447,6 +447,7 @@
 				483F1A761362404B0070F078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		483F1A771362404B0070F078 /* Build configuration list for PBXNativeTarget "RiskSimTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				483F1A791362404B0070F078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
